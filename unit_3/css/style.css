@@ -1,6 +1,14 @@
 
 
 header { 
-	background-image:  url ("../images/hero_image_workspace.jpg") black;
+	background: url ("hero_image_workspace.jpg") black;
+    text-align: center;
+    color: black;
+}
+
+nav {
+	text-decoration: none;
+	color: black
+	background: url ("hero_image_workspace.jpg") black;
 }
 
