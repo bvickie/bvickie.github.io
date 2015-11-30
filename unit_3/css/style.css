@@ -1,14 +1,13 @@
-
-
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	color: #222;
+}
 header { 
 	background: url ("hero_image_workspace.jpg") black;
-    text-align: center;
-    color: black;
 }
-
-nav {
-	text-decoration: none;
-	color: black
-	background: url ("hero_image_workspace.jpg") black;
+nav a {
+	color:#222;
+	margin:1em;
+	text-decoration:none;
 }
 
