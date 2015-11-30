@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	color: #222;
@@ -9,5 +10,24 @@ nav a {
 	color:#222;
 	margin:1em;
 	text-decoration:none;
+=======
+body {
+	color: black;
+	background: url ("../images/hero_image_workspace.jpg") black;
+}
+
+header { 
+	background: url ("../images/hero_image_workspace.jpg") black;
+    text-align: center;
+    color: black;
+
+}
+
+nav {
+	background: url ("../images/hero_image_workspace.jpg") black;
+	text-decoration: none;
+	color: black
+	background: url ("hero_image_workspace.jpg") black;
+>>>>>>> Stashed changes
 }
 
