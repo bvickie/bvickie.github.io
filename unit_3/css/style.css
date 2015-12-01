@@ -1,33 +1,26 @@
-<<<<<<< Updated upstream
+
 * { margin:0; padding:0; box-sizing:border-box; }
+
+
 body {
 	color: #222;
 }
 header { 
-	background: url ("hero_image_workspace.jpg") black;
+	background: url("../images/hero_image_building.png") black;
+	width: 1263px;
+	height: 550px;
+	color: #fff;
+	text-align: center;
+	position: relative;
 }
+
 nav a {
-	color:#222;
 	margin:1em;
 	text-decoration:none;
-=======
-body {
-	color: black;
-	background: url ("../images/hero_image_workspace.jpg") black;
+	color: #fff;
 }
 
-header { 
-	background: url ("../images/hero_image_workspace.jpg") black;
-    text-align: center;
-    color: black;
-
+blog {
+	background: url("../images/hero_image_ocean.png") black;
+	
 }
-
-nav {
-	background: url ("../images/hero_image_workspace.jpg") black;
-	text-decoration: none;
-	color: black
-	background: url ("hero_image_workspace.jpg") black;
->>>>>>> Stashed changes
-}
-
