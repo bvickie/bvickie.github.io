@@ -12,9 +12,8 @@ body {
 h1 {
 	font-size: 500%;
 	text-align: center;
-	text-shadow: .5px .5px .5px #808080;
 	font-family: 'Playfair Display', serif;
-	padding-top: 200px;
+	padding-top: 175px;
 	letter-spacing: .07em;
 }
 
@@ -48,16 +47,15 @@ header {
 nav a {
 	margin:1em;
 	text-decoration:none;
-	color: #fff;
+	color: #676767;
 	display: inline-block;
-	padding: 10px;
+	padding: 4px;
 	text-align: center;
 }
 
 nav li {
 	display: inline;
 	font-weight: 550;
-	text-shadow: 1px 1px 1px black;
 	font-size: 110%
 }
 
