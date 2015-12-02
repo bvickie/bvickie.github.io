@@ -3,29 +3,33 @@
 
 
 body {
-	color: #222;
+	color: #676767;
 	font-size: 105%;
-}
-
-p#slogan {
-	font-style: italic;
-	font-size: 150%;
-	text-transform: lowercase;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
 }
 
 h1 {
 	font-size: 500%;
 	text-align: center;
 	text-shadow: .5px .5px .5px #808080;
-	font-family: Helvetica-Neue,Helvetica,Arial,sans-serif;
+	font-family: 'Playfair Display', serif;
+	padding-top: 200px;
 }
+
 
 h2 {
 	font-size: 200%;
+	font-family: 'Playfair Display', serif;
 }
 
+#first {
+	text-align: center;
+}
+
+
 header { 
-	background: url("../images/hero_image_building.png") black;
+	background: url("../images/hero_image_tv.png") black;
 	background-position: center;
 	width: 1263px;
 	height: 550px;
@@ -50,3 +54,9 @@ nav li {
 	font-size: 110%
 }
 
+p#slogan {
+	font-style: italic;
+	font-size: 115%;
+	text-transform: lowercase;
+	font-family: 'Roboto', sans-serif;
+}
