@@ -15,12 +15,17 @@ h1 {
 	text-shadow: .5px .5px .5px #808080;
 	font-family: 'Playfair Display', serif;
 	padding-top: 200px;
+	letter-spacing: .07em;
 }
 
 
 h2 {
 	font-size: 200%;
 	font-family: 'Playfair Display', serif;
+	margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    letter-spacing: 1px;
 }
 
 #first {
