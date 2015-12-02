@@ -4,9 +4,29 @@
 
 body {
 	color: #222;
+	font-size: 105%;
 }
+
+p#slogan {
+	font-style: italic;
+	font-size: 150%;
+	text-transform: lowercase;
+}
+
+h1 {
+	font-size: 500%;
+	text-align: center;
+	text-shadow: .5px .5px .5px #808080;
+	font-family: Helvetica-Neue,Helvetica,Arial,sans-serif;
+}
+
+h2 {
+	font-size: 200%;
+}
+
 header { 
 	background: url("../images/hero_image_building.png") black;
+	background-position: center;
 	width: 1263px;
 	height: 550px;
 	color: #fff;
@@ -18,9 +38,15 @@ nav a {
 	margin:1em;
 	text-decoration:none;
 	color: #fff;
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
 }
 
-blog {
-	background: url("../images/hero_image_ocean.png") black;
-	
+nav li {
+	display: inline;
+	font-weight: 550;
+	text-shadow: 1px 1px 1px black;
+	font-size: 110%
 }
+
