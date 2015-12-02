@@ -30,6 +30,8 @@ h2 {
 
 #first {
 	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 
@@ -64,4 +66,5 @@ p#slogan {
 	font-size: 115%;
 	text-transform: lowercase;
 	font-family: 'Roboto', sans-serif;
+	margin-top: 15px;
 }
