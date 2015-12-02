@@ -37,7 +37,7 @@ h2 {
 
 header { 
 	background: url("../images/hero_image_tv.png") black;
-	background-position: center;
+	background-size: cover;
 	width: 1263px;
 	height: 550px;
 	color: #fff;
