@@ -65,8 +65,9 @@ nav a {
 nav li {
 		display: inline;
 		font-weight: 900;
-		font-size: 1.1em;
+		font-size: .85em;
 		color: #444422;
+		letter-spacing: 1px;
 }
 
 p {
