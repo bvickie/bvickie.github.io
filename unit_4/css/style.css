@@ -1,0 +1,90 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+
+#about_section {
+				background: url("../images/hero_image_tv.png") orange;
+				background-size: cover;
+				width: 1263px;
+				height: 550px;
+				position: relative;
+				color: #fff;
+}
+
+body {
+	color: #88AA88;
+	font-size: 18px;
+	font-family: 'Josefin Slab', serif;
+}
+
+h1 {
+	font-size: 6em;
+	text-align: center;
+	font-family: 'Loved by the King', cursive;
+	padding-top: 50px;
+	letter-spacing: .07em;
+	font-weight: 575S;
+	color: #F3F0F0;
+}
+
+h2 {
+	font-size: 3em;
+	font-family: 'Loved by the King', cursive; 
+    letter-spacing: .3em;
+    margin: 1.5em;
+	line-height: 1.4em;
+	font-weight: 700;
+	color: #777777;
+}
+
+#first {
+		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		font-weight: 200;
+}
+
+header { 
+		background: url("../images/hero_image_tv.png") black;
+		background-size: cover;
+		width: 1263px;
+		height: 550px;
+		color: #fff;
+		text-align: center;
+		position: relative;
+}
+
+nav a {
+		margin:1em;
+		text-decoration:none;
+		color: #334444;
+		display: inline-block;
+		padding: 4px;
+		text-align: center;
+}
+
+nav li {
+		display: inline;
+		font-weight: 900;
+		font-size: 1.1em;
+		color: #444422;
+}
+
+p {
+	margin: 2em;
+}
+
+p#slogan {
+		font-style: italic;
+		font-size: 1.5em;
+		text-transform: lowercase;
+		font-family: 'Arapey', serif;
+		margin-top: 15px;
+		color: #AA6644;
+}
+
+ul {
+	list-style-type: none;
+	margin: 2em;
+	line-height: 1.5em;
+	font-weight: 700;
+}
