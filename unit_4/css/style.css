@@ -2,18 +2,27 @@
 
 
 #about_section {
-				background: url("../images/hero_image_tv.png") orange;
-				background-size: cover;
-				width: 1263px;
-				height: 550px;
-				position: relative;
-				color: #fff;
+	background: url("../images/hero_image_tv.png") orange;
+	background-size: cover;
+	max-width: 1263px;
+	height: 550px;
+	position: relative;
+	color: #fffff;
+	margin: 0 auto;
+	position: relative;
 }
 
 body {
 	color: #88AA88;
 	font-size: 18px;
 	font-family: 'Josefin Slab', serif;
+}
+
+#first {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-weight: 200;
 }
 
 h1 {
@@ -36,38 +45,36 @@ h2 {
 	color: #777777;
 }
 
-#first {
-		text-align: center;
-		margin-top: 50px;
-		margin-bottom: 50px;
-		font-weight: 200;
+header { 
+	background: url("../images/hero_image_tv.png") black;
+	background-size: cover;
+	width: 1263px;
+	height: 550px;
+	color: #fff;
+	text-align: center;
+	position: relative;
 }
 
-header { 
-		background: url("../images/hero_image_tv.png") black;
-		background-size: cover;
-		width: 1263px;
-		height: 550px;
-		color: #fff;
-		text-align: center;
-		position: relative;
+img {
+  float: right;
+  margin: 0 0 1em 1em;
 }
 
 nav a {
-		margin:1em;
-		text-decoration:none;
-		color: #334444;
-		display: inline-block;
-		padding: 4px;
-		text-align: center;
+	margin:1em;
+	text-decoration:none;
+	color: #334444;
+	display: inline-block;
+	padding: 4px;
+	text-align: center;
 }
 
 nav li {
-		display: inline;
-		font-weight: 900;
-		font-size: .85em;
-		color: #444422;
-		letter-spacing: 1px;
+	display: inline;
+	font-weight: 900;
+	font-size: .85em;
+	color: #444422;
+	letter-spacing: 1px;
 }
 
 p {
@@ -75,12 +82,12 @@ p {
 }
 
 p#slogan {
-		font-style: italic;
-		font-size: 1.5em;
-		text-transform: lowercase;
-		font-family: 'Arapey', serif;
-		margin-top: 15px;
-		color: #AA6644;
+	font-style: italic;
+	font-size: 1.5em;
+	text-transform: lowercase;
+	font-family: 'Arapey', serif;
+	margin-top: 15px;
+	color: #AA6644;
 }
 
 ul {
