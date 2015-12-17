@@ -27,11 +27,17 @@ body {
 	font-weight: 200;
 }
 
+#find_section {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
 h1 {
 	font-size: 6em;
 	text-align: center;
-	font-family: 'Loved by the King', cursive;
-	padding-top: 50px;
+	font-family: 'Fredericka the Great', cursive;
+	margin-top: 50px;
+	padding-top: 60px;
 	letter-spacing: .07em;
 	font-weight: 575S;
 	color: #F3F0F0;
@@ -39,7 +45,7 @@ h1 {
 
 h2 {
 	font-size: 3em;
-	font-family: 'Loved by the King', cursive; 
+	font-family: 'Arapey', serif;
     letter-spacing: .3em;
     margin: 1.5em;
 	line-height: 1.4em;
@@ -61,7 +67,7 @@ header {
 	background: black;
 	background-size: cover;
 	width: 1263px;
-	height: 550px;
+	height: 650px;
 	color: #fff;
 	text-align: center;
 	position: relative;
