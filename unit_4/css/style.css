@@ -1,21 +1,23 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
+address {
+	border:10px black solid;
+	max-width: 631.5px;
+	text-align: left;
+	padding: 5px;
+	margin: 10px;
+}
 
 #about_section {
-	background: url("../images/hero_image_tv.png") orange;
-	background-size: cover;
-	max-width: 1263px;
-	height: 550px;
-	position: relative;
 	color: #fffff;
-	margin: 0 auto;
-	position: relative;
+	display: inline;
 }
 
 body {
 	color: #88AA88;
 	font-size: 18px;
 	font-family: 'Josefin Slab', serif;
+	background-color: black;
 }
 
 #first {
@@ -43,21 +45,39 @@ h2 {
 	line-height: 1.4em;
 	font-weight: 700;
 	color: #777777;
+	border:10px black solid;
+}
+
+h3 {
+	font-style: italic;
+	font-size: 1.5em;
+	text-transform: lowercase;
+	font-family: 'Arapey', serif;
+	margin-top: 15px;
+	color: #AA6644;
 }
 
 header { 
-	background: url("../images/hero_image_tv.png") black;
+	background: black;
 	background-size: cover;
 	width: 1263px;
 	height: 550px;
 	color: #fff;
 	text-align: center;
 	position: relative;
+	border:10px black solid;
+}
+
+iframe{
+	border:10px black solid;
+	margin: 4em 4em 4em 4em;
 }
 
 img {
-  float: right;
-  margin: 0 0 1em 1em;
+  	float: right;
+  	margin: 1em 1em 1em 1em;
+  	border:10px black solid;
+
 }
 
 nav a {
