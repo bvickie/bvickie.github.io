@@ -13,7 +13,7 @@ address {
 	display: inline;
 }
 
-#about_section ul {
+#fifth_section ul {
 	max-width: 631.5px;
 }
 
@@ -25,14 +25,14 @@ body {
 	border:10px #334444 solid;
 }
 
-#first {
+#first_section {
 	text-align: center;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	font-weight: 200;
 }
 
-#find_section {
+#sixth_section {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
@@ -46,7 +46,6 @@ h1 {
 	letter-spacing: .07em;
 	font-weight: 575S;
 	color:  #334444;
-	font-shadow:#333333;
 }
 
 h2 {
