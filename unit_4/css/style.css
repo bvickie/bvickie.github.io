@@ -13,11 +13,16 @@ address {
 	display: inline;
 }
 
+#about_section ul {
+	max-width: 631.5px;
+}
+
 body {
-	color: #88AA88;
+	color: #8fb300;
 	font-size: 18px;
 	font-family: 'Josefin Slab', serif;
 	background-color: black;
+	border:10px #334444 solid;
 }
 
 #first {
@@ -40,7 +45,8 @@ h1 {
 	padding-top: 60px;
 	letter-spacing: .07em;
 	font-weight: 575S;
-	color: #F3F0F0;
+	color:  #334444;
+	font-shadow:#333333;
 }
 
 h2 {
@@ -48,10 +54,10 @@ h2 {
 	font-family: 'Arapey', serif;
     letter-spacing: .3em;
     margin: 1.5em;
+    margin-bottom: 10px;
 	line-height: 1.4em;
 	font-weight: 700;
-	color: #777777;
-	border:10px black solid;
+	color: #ccff00;
 }
 
 h3 {
@@ -59,8 +65,12 @@ h3 {
 	font-size: 1.5em;
 	text-transform: lowercase;
 	font-family: 'Arapey', serif;
-	margin-top: 15px;
-	color: #AA6644;
+	margin: 5px;
+	margin-bottom: 0;
+	color: #d3ffce;
+	padding-left: 80px;
+	max-width: 631.5px;
+	display: inline;
 }
 
 header { 
@@ -71,19 +81,15 @@ header {
 	color: #fff;
 	text-align: center;
 	position: relative;
-	border:10px black solid;
 }
 
 iframe{
-	border:10px black solid;
+	border:10px #334444 solid;
 	margin: 4em 4em 4em 4em;
 }
 
 img {
   	float: right;
-  	margin: 1em 1em 1em 1em;
-  	border:10px black solid;
-
 }
 
 nav a {
@@ -113,7 +119,7 @@ p#slogan {
 	text-transform: lowercase;
 	font-family: 'Arapey', serif;
 	margin-top: 15px;
-	color: #AA6644;
+	color: #d3ffce;
 }
 
 ul {
@@ -122,3 +128,4 @@ ul {
 	line-height: 1.5em;
 	font-weight: 700;
 }
+
