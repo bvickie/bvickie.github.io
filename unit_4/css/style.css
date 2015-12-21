@@ -48,6 +48,14 @@ body {
 	font-weight: 200;
 }
 
+footer {
+	background: black;
+	height: 300px;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
 form {
 	background: black;
 	color: #C3996b;
