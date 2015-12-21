@@ -1,10 +1,14 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
+address a {
+	color: #C3996b;
+}
+
 address {
-	border:10px black solid;
-	max-width: 631.5px;
+	background: black;
+	max-width: 450px;
 	text-align: left;
-	padding: 5px;
+	padding: 40px;
 	margin: 10px;
 }
 
@@ -14,6 +18,14 @@ body {
 	font-family: 'Didact Gothic', sans-serif;
 	background-color: #C9CEC9;
 	display: block;
+	width: 900px
+	margin: auto;
+	padding: 15px 40px 40px;
+}
+
+#eigth_section p {
+	border-bottom: 8px solid #fff;
+	border-top: 8px solid #fff;
 }
 
 #fourth_section {
@@ -24,6 +36,9 @@ body {
 
 #fifth_section ul {
 	max-width: 631.5px;
+	border-bottom: 8px solid #fff;
+	border-top: 8px solid #fff;
+	float: left;
 }
 
 #first_section {
@@ -31,6 +46,15 @@ body {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	font-weight: 200;
+}
+
+form {
+	background: black;
+	color: #C3996b;
+	max-width: 450px;
+	text-align: left;
+	padding: 40px;
+	margin: 10px;
 }
 
 h1 {
@@ -82,6 +106,7 @@ header {
 
 iframe{
 	margin: 4em 4em 4em 4em;
+	border: 8px solid #fff;
 }
 
 img {
@@ -125,9 +150,24 @@ p#slogan {
 	color: #C3996b;
 }
 
-#sixth_section {
-	margin-top: 100px;
+#second_section ul {
+	border-bottom: 8px solid #fff;
+	border-top: 8px solid #fff;
+}
+
+#seventh_section p {
+	border-bottom: 8px solid #fff;
+	border-top: 8px solid #fff;
+}
+
+#sixth_section h2 {
+	margin-top: 600px;
 	margin-bottom: 50px;
+}
+
+#third_section ul {
+	border-bottom: 8px solid #fff;
+	border-top: 8px solid #fff;
 }
 
 ul {
