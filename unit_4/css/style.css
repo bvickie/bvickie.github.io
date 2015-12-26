@@ -82,6 +82,8 @@ h2 {
     letter-spacing: 6px;
     text-transform: uppercase;
     display: block;
+    margin: 30px;
+    padding: 10px;
 }
 
 h3 {
@@ -98,7 +100,7 @@ h3 {
 }
 
 header { 
-	background: #C9CEC9;
+	background: url("../images/hero_image_building.png");
 	height: 400px;
 	color: #fff;
 	text-align: center;
@@ -141,7 +143,6 @@ nav ul {
     width: 860px;
     height: 40px;
    	margin: 0 auto;
-   	border: 2px solid pink;
 }
 
 
@@ -179,7 +180,6 @@ p#slogan {
 	border-bottom: 8px solid #fff;
 	border-top: 8px solid #fff;
 	max-width: 450px;
-	background: yellow;
 }
 
 ul {
