@@ -1,15 +1,28 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
+#about_section {
+	color: #fffff;
+	display: inline;
+	margin-bottom: 50px;
+	float: left;
+	text-align: left;
+}
+
+#about_section, #blog_section, #contact_section, 
+#image_section, #map_section, #portfolio_section {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
 address a {
 	color: #C3996b;
 }
 
-address {
-	background: black;
+address {	
 	max-width: 450px;
 	text-align: left;
 	padding: 40px;
 	margin: 10px;
+	background: black;
 }
 
 body {
@@ -21,32 +34,16 @@ body {
 	margin-left: 151px;
 }
 
-#eigth_section p {
-	border-bottom: 8px solid #fff;
-	border-top: 8px solid #fff;
+#blog_section p {
 	display: inline-block;
-	background: orange;
 }
 
-#fourth_section {
-	color: #fffff;
-	display: inline;
+#contact_section h2{
 	margin-bottom: 50px;
+    display: inline-block;
+    text-align: left;
 }
 
-#fifth_section ul {
-	max-width: 631.5px;
-	border-bottom: 8px solid #fff;
-	border-top: 8px solid #fff;
-	float: left;
-}
-
-#first_section {
-	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	font-weight: 200;
-}
 
 footer {
 	background: black;
@@ -62,6 +59,8 @@ form {
 	text-align: left;
 	padding: 40px;
 	margin: 10px;
+	float: right;
+	display: inline;
 }
 
 h1 {
@@ -111,8 +110,17 @@ iframe{
 	border: 8px solid #fff;
 }
 
-span {
-	display: inline-flex;
+li img {
+	position: relative;
+    top: 3px;
+    margin-left: 0;
+}
+
+main {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-weight: 200;
 }
 
 nav a {
@@ -132,19 +140,12 @@ nav li {
 	padding: 0 20px;
 }
 
-li img {
-	position: relative;
-    top: 3px;
-    margin-left: 0;
-}
-
 nav ul {
 	background: #fff;
     width: 860px;
     height: 40px;
    	margin: 0 auto;
-}
-
+ }
 
 p {
 	margin: 2em;
@@ -159,31 +160,27 @@ p#slogan {
 	color: #C3996b;
 }
 
-#second_section ul {
-	border-bottom: 8px solid #fff;
-	border-top: 8px solid #fff;
+span {
+	display: inline-flex;
+}
+
+#skills_section, #tech_section {
 	max-width: 450px;
+	margin: 50px;
+	text-align: left;
 
 }
 
-#seventh_section p {
-	border-bottom: 8px solid #fff;
-	border-top: 8px solid #fff;
+#skills_section {
+	float: left;
 }
 
-#sixth_section h2 {
-	margin-top: 600px;
-	margin-bottom: 50px;
-}
-
-#third_section ul {
-	border-bottom: 8px solid #fff;
-	border-top: 8px solid #fff;
-	max-width: 450px;
+#tech_section {
+	float: right;
 }
 
 ul {
-	list-style-type: none;
+	list-style-image: url("../images/bullet_asset.png");
 	margin: 2em;
 	line-height: 1.5em;
 	font-weight: 700;
