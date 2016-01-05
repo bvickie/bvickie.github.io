@@ -1,0 +1,202 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+#about_section, #blog_section, #contact_section, 
+#image_section, #map_section, #portfolio_section {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background: #FFE2B8;
+}
+
+#about_section {
+	color: #fffff;
+	display: inline;
+	margin-bottom: 50px;
+	float: left;
+	text-align: left;
+	background: #FFE2B8;
+}
+
+address a {
+	color: #C3996b;
+}
+
+address {	
+	max-width: 450px;
+	text-align: left;
+	padding: 40px;
+	margin: 10px;
+	background: black;
+}
+
+article {
+	background: #E89C6C;
+}
+
+#blog_section p {
+	display: inline-block;
+	background: #FFE2B8;
+}
+
+body {
+	color: #000;
+	font-size: 18px;
+	font-family: 'Didact Gothic', sans-serif;
+	background-color: #C9CEC9;
+	width: 900px
+	margin-left: 151px;
+}
+
+#contact_section h2{
+	margin-bottom: 50px;
+    display: inline-block;
+    text-align: left;
+    background: #FFE2B8;
+}
+
+footer {
+	background: black;
+	height: 200px;
+	color:#C3996b;
+	text-align: center;
+	background: #FF957E;
+}
+
+form {
+	background: black;
+	color: #C3996b;
+	max-width: 450px;
+	text-align: left;
+	padding: 40px;
+	margin: 10px;
+	float: right;
+	display: inline;
+}
+
+h1 {
+	font-size: 7em;
+	text-align: center;
+	font-family: 'Didact Gothic', sans-serif;
+	margin-top: 0 auto;
+	padding-top: 60px;
+	letter-spacing: .07em;
+	font-weight: normal;
+	color: #000;
+}
+
+h2 {
+	font-family: BrandonGrotesque-black, "futura-pt-1","futura-pt-2", Verdana, sans-serif;
+	color: #000;
+	font-size: 36px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    display: block;
+    margin: 30px;
+    padding: 10px;
+}
+
+h3 {
+	font-style: italic;
+	font-size: 1.5em;
+	text-transform: lowercase;
+	font-family: 'Arapey', serif;
+	margin: 5px;
+	margin-bottom: 0;
+	color: #C3996b;
+	padding-left: 80px;
+	max-width: 631.5px;
+	display: inline;
+}
+
+header { 
+	background: url("../images/hero_image_building.png");
+	height: 400px;
+	color: #fff;
+	text-align: center;
+	background: #FFED74;
+}
+
+iframe{
+	margin: 4em 4em 4em 4em;
+	border: 8px solid #fff;
+}
+
+li img {
+	position: relative;
+    top: 3px;
+    margin-left: 0;
+}
+
+main {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-weight: 200;
+}
+
+nav a {
+	margin:1px;
+	text-decoration:none;
+	display: inline-block;
+	padding: 4px;
+	text-align: center;
+	color: #000;
+}
+
+nav li {
+	display: inline;
+	font-weight: 900;
+	font-size: .85em;
+	letter-spacing: 1px;
+	padding: 0 20px;
+}
+
+nav ul {
+	background: #fff;
+    width: 860px;
+    height: 40px;
+   	margin: 0 auto;
+   	background: #E8C66A;
+ }
+
+p {
+	margin: 2em;
+}
+
+p#slogan {
+	font-style: italic;
+	font-size: 1.5em;
+	text-transform: lowercase;
+	font-family: 'Arapey', serif;
+	margin-top: 15px;
+	color: #C3996b;
+}
+
+#skills_section, #tech_section {
+	max-width: 450px;
+	margin: 50px;
+	text-align: left;
+	background: #FFE2B8;
+
+}
+
+#skills_section {
+	float: left;
+	background: #FFE2B8;
+}
+
+span {
+	display: inline-flex;
+}
+
+#tech_section {
+	float: right;
+	background: #FFE2B8;
+}
+
+ul {
+	list-style-image: url("../images/bullet_asset.png");
+	margin: 2em;
+	line-height: 1.5em;
+	font-weight: 700;
+}
+
