@@ -1,18 +1,21 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
+#about_section, #blog_section, #contact_section, 
+#image_section, #map_section, #portfolio_section {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background: #FFE2B8;
+}
+
 #about_section {
 	color: #fffff;
 	display: inline;
 	margin-bottom: 50px;
 	float: left;
 	text-align: left;
+	background: #FFE2B8;
 }
 
-#about_section, #blog_section, #contact_section, 
-#image_section, #map_section, #portfolio_section {
-	margin-top: 100px;
-	margin-bottom: 100px;
-}
 address a {
 	color: #C3996b;
 }
@@ -25,6 +28,15 @@ address {
 	background: black;
 }
 
+article {
+	background: #E89C6C;
+}
+
+#blog_section p {
+	display: inline-block;
+	background: #FFE2B8;
+}
+
 body {
 	color: #000;
 	font-size: 18px;
@@ -34,22 +46,19 @@ body {
 	margin-left: 151px;
 }
 
-#blog_section p {
-	display: inline-block;
-}
-
 #contact_section h2{
 	margin-bottom: 50px;
     display: inline-block;
     text-align: left;
+    background: #FFE2B8;
 }
-
 
 footer {
 	background: black;
 	height: 200px;
 	color:#C3996b;
 	text-align: center;
+	background: #FF957E;
 }
 
 form {
@@ -103,6 +112,7 @@ header {
 	height: 400px;
 	color: #fff;
 	text-align: center;
+	background: #FFED74;
 }
 
 iframe{
@@ -145,6 +155,7 @@ nav ul {
     width: 860px;
     height: 40px;
    	margin: 0 auto;
+   	background: #E8C66A;
  }
 
 p {
@@ -160,23 +171,26 @@ p#slogan {
 	color: #C3996b;
 }
 
-span {
-	display: inline-flex;
-}
-
 #skills_section, #tech_section {
 	max-width: 450px;
 	margin: 50px;
 	text-align: left;
+	background: #FFE2B8;
 
 }
 
 #skills_section {
 	float: left;
+	background: #FFE2B8;
+}
+
+span {
+	display: inline-flex;
 }
 
 #tech_section {
 	float: right;
+	background: #FFE2B8;
 }
 
 ul {
