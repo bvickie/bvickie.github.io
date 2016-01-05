@@ -40,10 +40,11 @@ article {
 body {
 	color: #000;
 	font-size: 18px;
-	font-family: 'Didact Gothic', sans-serif;
+	font-family: font-family: 'Slabo 27px', serif;
 	background-color: #C9CEC9;
 	width: 900px
 	margin-left: 151px;
+	font-weight: 100;
 }
 
 #contact_section h2{
