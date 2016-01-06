@@ -4,37 +4,55 @@
 #image_section, #map_section, #portfolio_section {
 	margin-top: 100px;
 	margin-bottom: 100px;
-	background: #FFE2B8;
+	height: 500px;
+	
 }
 
 #about_section {
 	color: #fffff;
-	display: inline;
+	display:inline-block;
 	margin-bottom: 50px;
-	float: left;
 	text-align: left;
-	background: #FFE2B8;
+	position: relative;
+	overflow: auto;	
 }
+
+#about_section img {
+	display: block;
+	float: right;
+	border: 8px solid #C3996b;
+}
+
+#about_section ul {
+	max-width: 530px;
+	float: left;
+}
+
 
 address a {
 	color: #C3996b;
 }
 
 address {	
-	max-width: 450px;
+	width: 530px;
 	text-align: left;
 	padding: 40px;
 	margin: 10px;
 	background: black;
+	float: left;
+	font-weight: 700;
+	font-shadow: 1px;
+	border: 8px solid #C3996b;
 }
 
 article {
-	background: #E89C6C;
+	margin: 20px;
+	padding: 5px;
 }
 
 #blog_section p {
 	display: inline-block;
-	background: #FFE2B8;
+	
 }
 
 body {
@@ -49,9 +67,8 @@ body {
 
 #contact_section h2{
 	margin-bottom: 50px;
-    display: inline-block;
-    text-align: left;
-    background: #FFE2B8;
+    display: block;
+    text-align: center;   
 }
 
 footer {
@@ -59,24 +76,32 @@ footer {
 	height: 200px;
 	color:#C3996b;
 	text-align: center;
-	background: #FF957E;
+	
+}
+
+footer p {
+	padding-top: 50px;
 }
 
 form {
 	background: black;
 	color: #C3996b;
-	max-width: 450px;
+	width:530px;
 	text-align: left;
 	padding: 40px;
 	margin: 10px;
 	float: right;
 	display: inline;
+	font-weight: 500;
+	font-shadow: 1px;
+	border: 8px solid #C3996b;
 }
 
 h1 {
 	font-size: 7em;
 	text-align: center;
 	font-family: 'Didact Gothic', sans-serif;
+	text-transform: uppercase;
 	margin-top: 0 auto;
 	padding-top: 60px;
 	letter-spacing: .07em;
@@ -101,24 +126,30 @@ h3 {
 	text-transform: lowercase;
 	font-family: 'Arapey', serif;
 	margin: 5px;
-	margin-bottom: 0;
 	color: #C3996b;
-	padding-left: 80px;
-	max-width: 631.5px;
-	display: inline;
+	padding-left: 30px;
+
+}
+
+h4 {
+	margin: 5px;
+	padding: 10px;
 }
 
 header { 
-	background: url("../images/hero_image_building.png");
-	height: 400px;
+	background: url("../images/hero_image_beach.png");
 	color: #fff;
 	text-align: center;
-	background: #FFED74;
+	background-size: cover;
+	width: 1263px;
+	height: 500px;
+	position: relative;
+	
 }
 
 iframe{
 	margin: 4em 4em 4em 4em;
-	border: 8px solid #fff;
+	border: 8px solid #C3996b;
 }
 
 li img {
@@ -156,7 +187,7 @@ nav ul {
     width: 860px;
     height: 40px;
    	margin: 0 auto;
-   	background: #E8C66A;
+   	
  }
 
 p {
@@ -172,17 +203,23 @@ p#slogan {
 	color: #C3996b;
 }
 
+#portfolio_section p, #blog_section p {
+	font-style: italic;
+	font-size: 1.5em;
+	text-transform: lowercase;
+	font-family: 'Arapey', serif;
+	margin-bottom: 50px;
+	color: #C3996b;
+}
+
 #skills_section, #tech_section {
 	max-width: 450px;
 	margin: 50px;
-	text-align: left;
-	background: #FFE2B8;
-
+	text-align: left;	
 }
 
 #skills_section {
-	float: left;
-	background: #FFE2B8;
+	float: left;	
 }
 
 span {
@@ -190,8 +227,7 @@ span {
 }
 
 #tech_section {
-	float: right;
-	background: #FFE2B8;
+	float: right;	
 }
 
 ul {
