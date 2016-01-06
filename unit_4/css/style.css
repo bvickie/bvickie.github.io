@@ -9,12 +9,11 @@
 }
 
 #about_section {
-	color: #fffff;
+	color: black;
 	display:inline-block;
 	margin-bottom: 50px;
 	text-align: left;
 	position: relative;
-	overflow: auto;	
 }
 
 #about_section img {
@@ -44,15 +43,8 @@ address {
 	font-shadow: 1px;
 	border: 8px solid #C3996b;
 }
-
-article {
-	margin: 20px;
-	padding: 5px;
-}
-
-#blog_section p {
-	display: inline-block;
-	
+#blog_section a {
+	color: white;
 }
 
 body {
@@ -65,7 +57,12 @@ body {
 	font-weight: 100;
 }
 
-#contact_section h2{
+#contact_section {
+	background: black;
+	background-size: cover;
+}
+
+#contact_section h2 {
 	margin-bottom: 50px;
     display: block;
     text-align: center;   
@@ -111,7 +108,7 @@ h1 {
 
 h2 {
 	font-family: BrandonGrotesque-black, "futura-pt-1","futura-pt-2", Verdana, sans-serif;
-	color: #000;
+	color: white;
 	font-size: 36px;
     letter-spacing: 6px;
     text-transform: uppercase;
@@ -205,12 +202,15 @@ p#slogan {
 	text-shadow: 1px;
 }
 
+#portfolio_section, #blog_section {
+	display: block;
+}
+
 #portfolio_section p, #blog_section p {
 	font-style: italic;
 	font-size: 1.5em;
 	text-transform: lowercase;
 	font-family: 'Arapey', serif;
-	margin-bottom: 50px;
 	color: #C3996b;
 	text-shadow: 1px;
 }
@@ -218,7 +218,8 @@ p#slogan {
 #skills_section, #tech_section {
 	max-width: 450px;
 	margin: 50px;
-	text-align: left;	
+	text-align: left;
+	color: black;
 }
 
 #skills_section {
