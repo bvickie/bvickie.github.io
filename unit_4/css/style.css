@@ -6,7 +6,7 @@
 	text-align: left;
 	clear: both;
 	width: 80%;
-	float: right;
+	height: 443px;
 	display: inline-block;
 }
 
@@ -26,8 +26,6 @@ address {
 	font-weight: 700;
 	font-shadow: 1px;
 	outline: 8px solid #C3996b;
-	float: left;
-	width: 100%
 }
 
 #blog_section a {
@@ -42,6 +40,13 @@ body {
 #contact_section {
 	background: black;
 	background-size: cover;
+	clear: left;
+}
+
+#contact_section h2 {
+	margin: 50px;
+    padding-top: 50px;
+    color: white;
 }
 
 div {
@@ -70,7 +75,6 @@ form {
 	font-weight: 500;
 	font-shadow: 1px;
 	outline: 8px solid #C3996b;
-	float: right;
 	width: 100%;
 }
 
@@ -88,10 +92,12 @@ h1 {
 
 h2 {
 	font-family: BrandonGrotesque-black, "futura-pt-1","futura-pt-2", Verdana, sans-serif;
-	color: white;
+	color: black;
 	font-size: 25px;
     letter-spacing: 6px;
     text-transform: uppercase;
+    margin: 50px;
+    padding-top: 50px;
 }
 
 h3 {
@@ -104,9 +110,18 @@ h3 {
 	padding-left: 30px;
 }
 
-h4 {
-	margin: 5px;
+h4 a {
+	margin: 10px;
 	padding: 10px;
+	 -webkit-text-stroke: .5px black;
+	font-size: 1.5em;
+	text-decoration: none;
+	line-height: 5px;
+
+}
+
+h4 a:hover {
+	background-color: #C3996b;
 }
 
 header { 
@@ -149,6 +164,19 @@ main {
 	margin: auto;
 }
 
+nav {
+	display: inline-block;
+	font-weight: 900;
+	font-size: .85em;
+	letter-spacing: 1px;
+	padding: 0 20px;
+	float: left;
+	text-align: left;
+	position: fixed;
+  	top: 20%;
+  	left: 0%;
+}
+
 nav a {
 	margin: 1px;
 	text-decoration:none;
@@ -165,23 +193,9 @@ nav a:hover {
 	background-color: #C3996b;
 }
 
-nav {
-	display: inline-block;
-	font-weight: 900;
-	font-size: .85em;
-	letter-spacing: 1px;
-	padding: 0 20px;
-	float: left;
-	text-align: left;
-	position: fixed;
-  	top: 20%;
-  	left: 0%;
-}
-
 p {
 	margin: 2em;
 }
-
 
 #portfolio_section p, #blog_section p {
 	font-style: italic;
@@ -208,7 +222,6 @@ span {
 	font-size: 3em;
 	display: block;
 }
-
 
 #tech_section {
 	float: right;	
