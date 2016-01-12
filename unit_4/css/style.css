@@ -84,7 +84,7 @@ h1 {
 	font-family: 'Didact Gothic', sans-serif;
 	text-transform: uppercase;
 	margin-top: 0 auto;
-	padding-top: 60px;
+	padding-top: 40px;
 	letter-spacing: .07em;
 	font-weight: 500;
 	color: #000;
@@ -141,7 +141,8 @@ header h2 {
 	font-size: 15px;
 	letter-spacing: 2px;
    -webkit-text-stroke: 1px black;
-   font-style: italic;
+   	font-style: italic;
+   	color: white;
 }
 
 header img {
