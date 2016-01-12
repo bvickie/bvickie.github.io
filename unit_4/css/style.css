@@ -124,10 +124,11 @@ header h2 {
 	font-size: 15px;
 	letter-spacing: 2px;
    -webkit-text-stroke: 1px black;
+   font-style: italic;
 }
 
 header img {
-	padding: 15px;
+	padding: 20px;
 }
 
 iframe {
