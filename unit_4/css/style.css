@@ -5,10 +5,12 @@
 	margin-bottom: 50px;
 	text-align: left;
 	clear: both;
+	width: 80%;
+	float: right;
+	display: inline-block;
 }
 
 #about_section img {
-	float: right;
 	outline: 8px solid #C3996b;
 }
 
@@ -43,7 +45,7 @@ body {
 }
 
 div {
-	width: 46%;
+	width: 35%;
 	display: inline-block;
 	padding: 2%;
 }
@@ -136,16 +138,15 @@ iframe {
 	outline: 8px solid #C3996b;
 }
 
-li img {
-	position: relative;
-    top: 3px;
-    margin-left: 0;
-}
-
 main {
 	text-align: center;
 	margin-top: 50px;
 	margin-bottom: 50px;
+}
+
+#map_section {
+	width: 80%;
+	margin: auto;
 }
 
 nav a {
