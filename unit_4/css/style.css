@@ -153,6 +153,7 @@ header img {
 iframe {
 	margin: 4em 4em 4em 4em;
 	outline: 8px solid #C3996b;
+	width: 80%;
 }
 
 main {
