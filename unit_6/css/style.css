@@ -190,20 +190,20 @@ ul {
     padding: 20px;
 }
 
-#left {
+#skills_section {
     background-color: violet;
     border: 1px black solid;
     padding: 20px;
     float: left;
-    width: 30%;
+    width: 40%;
 }
 
-#right {
+#tech_section {
     background-color: pink;
     border: 1px black solid;
     padding: 20px;
     float: right;   
-    width: 62%;
+    width: 40%;
 }
 
 .clearfix:after {
