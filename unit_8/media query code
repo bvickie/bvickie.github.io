@@ -1,0 +1,22 @@
+@media screen only and (max-width: 1250px) {
+	body {
+		font-size: 10px;
+	}
+}
+	h1 {
+	font-size: 4em;
+	text-align: left; 	
+	}
+}	
+
+@media screen only and (max-width: 960px) {
+
+}
+
+@media screen only and (max-width: 800px) {
+
+}
+
+@media screen only and (max-width: 400px) {
+
+}
